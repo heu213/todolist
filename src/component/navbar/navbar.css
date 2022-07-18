@@ -1,0 +1,18 @@
+.Navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.Navbar > *{
+    text-decoration: none;
+    padding:7px;
+    margin-right:5px ;
+    margin-bottom: 20px;
+    color: black;
+    background-color: aquamarine;
+    transition: 0.6s;
+}
+.Navbar > *:hover{
+ background-color: rgb(166, 93, 93);
+}
+
